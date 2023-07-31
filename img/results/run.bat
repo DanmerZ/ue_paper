@@ -1,0 +1,17 @@
+magick 00001_0629.png -resize 50%% 00001_0629.png
+magick 00001_0632.png -resize 50%% 00001_0632.png
+magick 00001_0646.png -resize 50%% 00001_0646.png
+magick crop_00001_0628.png -resize 50%% crop_00001_0628.png
+magick crop_00001_0646.png -resize 50%% crop_00001_0646.png
+magick crop_00001_0831.png -resize 50%% crop_00001_0831.png
+magick seq_f_00001_0629.png -resize 50%% seq_f_00001_0629.png
+magick seq_s_00001_0629.png -resize 50%% seq_s_00001_0629.png
+magick set14_img_005_SRF_4_HR.png -resize 50%% set14_img_005_SRF_4_HR.png
+magick set5_img_003_SRF_4_HR.png -resize 50%% set5_img_003_SRF_4_HR.png
+magick tv_4_00001_0629.png -resize 50%% tv_4_00001_0629.png
+magick tv_4_00001_0632.png -resize 50%% tv_4_00001_0632.png
+magick tv_4_00001_0646.png -resize 50%% tv_4_00001_0646.png
+magick urban100_img_001_SRF_4_HR.png -resize 50%% urban100_img_001_SRF_4_HR.png
+magick vgg_00001_0629.png -resize 50%% vgg_00001_0629.png
+magick vgg_00001_0632.png -resize 50%% vgg_00001_0632.png
+magick vgg_00001_0646.png -resize 50%% vgg_00001_0646.png

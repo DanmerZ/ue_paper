@@ -1,0 +1,420 @@
+\glsdefs@newdocentry{ssim}%
+{%
+name={\acronymfont {\glsentryshort {ssim}}},%
+sort={SSIM},%
+type={acronym},%
+first={SSIM},%
+firstplural={SSIMs},%
+text={SSIM},%
+plural={SSIMs},%
+description={structural similarity index measure},%
+descriptionplural={structural similarity index measure},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={structural similarity index measure},%
+longplural={structural similarity index measures},%
+short={SSIM},%
+shortplural={SSIMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{psnr}%
+{%
+name={\acronymfont {\glsentryshort {psnr}}},%
+sort={PSNR},%
+type={acronym},%
+first={PSNR},%
+firstplural={PSNRs},%
+text={PSNR},%
+plural={PSNRs},%
+description={peak signal-to-noise ratio},%
+descriptionplural={peak signal-to-noise ratio},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={peak signal-to-noise ratio},%
+longplural={peak signal-to-noise ratios},%
+short={PSNR},%
+shortplural={PSNRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cnn}%
+{%
+name={\acronymfont {\glsentryshort {cnn}}},%
+sort={CNN},%
+type={acronym},%
+first={CNN},%
+firstplural={CNNs},%
+text={CNN},%
+plural={CNNs},%
+description={convolutional neural network},%
+descriptionplural={convolutional neural network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={convolutional neural network},%
+longplural={convolutional neural networks},%
+short={CNN},%
+shortplural={CNNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ann}%
+{%
+name={\acronymfont {\glsentryshort {ann}}},%
+sort={ANN},%
+type={acronym},%
+first={ANN},%
+firstplural={ANNs},%
+text={ANN},%
+plural={ANNs},%
+description={artificial neural network},%
+descriptionplural={artificial neural network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={artificial neural network},%
+longplural={artificial neural networks},%
+short={ANN},%
+shortplural={ANNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gan}%
+{%
+name={\acronymfont {\glsentryshort {gan}}},%
+sort={GAN},%
+type={acronym},%
+first={GAN},%
+firstplural={GANs},%
+text={GAN},%
+plural={GANs},%
+description={generative adversarial network},%
+descriptionplural={generative adversarial network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={generative adversarial network},%
+longplural={generative adversarial networks},%
+short={GAN},%
+shortplural={GANs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rnn}%
+{%
+name={\acronymfont {\glsentryshort {rnn}}},%
+sort={RNN},%
+type={acronym},%
+first={RNN},%
+firstplural={RNNs},%
+text={RNN},%
+plural={RNNs},%
+description={recurrent neural networks},%
+descriptionplural={recurrent neural networks},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={recurrent neural networks},%
+longplural={recurrent neural networkss},%
+short={RNN},%
+shortplural={RNNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{mse}%
+{%
+name={\acronymfont {\glsentryshort {mse}}},%
+sort={MSE},%
+type={acronym},%
+first={MSE},%
+firstplural={MSEs},%
+text={MSE},%
+plural={MSEs},%
+description={mean squared error},%
+descriptionplural={mean squared error},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={mean squared error},%
+longplural={mean squared errors},%
+short={MSE},%
+shortplural={MSEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{tv}%
+{%
+name={\acronymfont {\glsentryshort {tv}}},%
+sort={TV},%
+type={acronym},%
+first={TV},%
+firstplural={TVs},%
+text={TV},%
+plural={TVs},%
+description={total-variation},%
+descriptionplural={total-variation},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={total-variation},%
+longplural={total-variations},%
+short={TV},%
+shortplural={TVs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{sisr}%
+{%
+name={\acronymfont {\glsentryshort {sisr}}},%
+sort={SISR},%
+type={acronym},%
+first={SISR},%
+firstplural={SISRs},%
+text={SISR},%
+plural={SISRs},%
+description={single-image super-resolution},%
+descriptionplural={single-image super-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={single-image super-resolution},%
+longplural={single-image super-resolutions},%
+short={SISR},%
+shortplural={SISRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{misr}%
+{%
+name={\acronymfont {\glsentryshort {misr}}},%
+sort={MISR},%
+type={acronym},%
+first={MISR},%
+firstplural={MISRs},%
+text={MISR},%
+plural={MISRs},%
+description={multi-image super-resolution},%
+descriptionplural={multi-image super-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={multi-image super-resolution},%
+longplural={multi-image super-resolutions},%
+short={MISR},%
+shortplural={MISRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{vsr}%
+{%
+name={\acronymfont {\glsentryshort {vsr}}},%
+sort={VSR},%
+type={acronym},%
+first={VSR},%
+firstplural={VSRs},%
+text={VSR},%
+plural={VSRs},%
+description={video super-resolution},%
+descriptionplural={video super-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={video super-resolution},%
+longplural={video super-resolutions},%
+short={VSR},%
+shortplural={VSRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{frvsr}%
+{%
+name={\acronymfont {\glsentryshort {frvsr}}},%
+sort={FRVSR},%
+type={acronym},%
+first={FRVSR},%
+firstplural={FRVSRs},%
+text={FRVSR},%
+plural={FRVSRs},%
+description={frame-recurrent video super-resolution},%
+descriptionplural={frame-recurrent video super-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={frame-recurrent video super-resolution},%
+longplural={frame-recurrent video super-resolutions},%
+short={FRVSR},%
+shortplural={FRVSRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{sr}%
+{%
+name={\acronymfont {\glsentryshort {sr}}},%
+sort={SR},%
+type={acronym},%
+first={SR},%
+firstplural={SRs},%
+text={SR},%
+plural={SRs},%
+description={super-resolution},%
+descriptionplural={super-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={super-resolution},%
+longplural={super-resolutions},%
+short={SR},%
+shortplural={SRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{hr}%
+{%
+name={\acronymfont {\glsentryshort {hr}}},%
+sort={HR},%
+type={acronym},%
+first={HR},%
+firstplural={HRs},%
+text={HR},%
+plural={HRs},%
+description={high-resolution},%
+descriptionplural={high-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={high-resolution},%
+longplural={high-resolutions},%
+short={HR},%
+shortplural={HRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{lr}%
+{%
+name={\acronymfont {\glsentryshort {lr}}},%
+sort={LR},%
+type={acronym},%
+first={LR},%
+firstplural={LRs},%
+text={LR},%
+plural={LRs},%
+description={low-resolution},%
+descriptionplural={low-resolution},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={low-resolution},%
+longplural={low-resolutions},%
+short={LR},%
+shortplural={LRs},%
+counter={page},%
+parent={},%
+%
+}%
+

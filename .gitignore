@@ -1,0 +1,17 @@
+tex/*.log
+tex/*.dvi
+tex/*.aux
+tex/*.pdf
+experimental/srgan/dataset/
+experimental/srgan/data/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+experimental/pytorch_tutorial/data/
+experimental/pytorch_tutorial/models/
+experimental/pytorch_tutorial/ml_assignment/input/
+.vscode/
+data/
+tmp/
+demo/
+training/
