@@ -293,6 +293,30 @@ To train the model in this thesis, we use a subset of the original test set of V
 \end{tabular}
 \end{table*}
 
+\section{SRGAN model architecture\label{sec:srgan_arhitecture}}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[scale=0.5]{srgan_model}\\
+	\caption{Architecture of Generator and Discriminator Network. Here $k$ is the corresponding kernel size, $n$ is a number of feature maps and $s$ is stride indicated for each convolutional layer.}
+	\label{fig:srgan_model}
+\end{figure}
+
+\acrshortpl{gan} offer a robust framework for generating visually convincing natural images that possess a high level of perceptual quality. The \acrshort{gan} process encourages the generated images to transition towards areas in the solution space that are more likely to contain photo-realistic images. As a result, the generated images become closer to the manifold of natural images, capturing their characteristics and visual realism \cite{goodfellow2014generative}.
+
+We define a discriminator network $D_{\theta_D}$ optimized together with $G_{\theta_G}$ to solve the adversarial min-max problem:
+
+\begin{gather*} \label{eq:adversarial_min_max}
+	\min_{\theta_G} \max_{\theta_D} \mathbb{E}_{I^{HR} \sim p_{train} (I^{HR}) }  [ \log D_{\theta_D}(I^{HR})  ] + \\
+	\mathbb{E}_{I^{LR} \sim p_G (I^{LR})} [ \log (1 - D_{\theta_D} ( G_{\theta_G} (I_{LR}) )) ]
+\end{gather*}
+
+The main concept behind this formulation is to enable the training of a generative model $G$. The objective is to deceive a differentiable discriminator $D$, which is specifically trained to differentiate between super-resolved images and real images. By adopting this approach, the generator network can acquire the ability to generate solutions that closely resemble real images, making them challenging for the discriminator to classify accurately. This strategy promotes the generation of visually superior solutions that align with the characteristics of natural images. In contrast, conventional super-resolution solutions achieved by minimizing pixel-wise error measurements like \acrshort{mse} do not prioritize perceptual quality.
+
+The architecture of the generator network is shown on Fig. \ref{fig:srgan_model}. It consists of $B$ residual blocks with the same layout of two convolutional layers with $3 \times 3$ kernels and 64 feature maps, batch-normalization layers and ParametricReLU \cite{delve_deep_into_rectifiers_2015} as the activation function. The resolution of the input image is increased by two trained sub-pixel convolution layers \cite{sub_pixel_cnn_2016}.
+
+The discriminator network is trained to distinguish between the real HR images from generated SR images. The discriminator architecture is shown in Fig. \ref{fig:srgan_model}. The discriminator model is trained to solve the optimization problem in Equation \ref{eq:adversarial_min_max}. It contains eight convolutional layers with an increasing number of $3 \times 3$ filter kernels, increasing by a factor of 2 from 64 to 512 kernels as in the VGG network \cite{vgg_very_deep_cnn_2014}. Strided convolutions are employed to decrease the image resolution each time the number of features is doubled. After the resulting 512 feature maps there are two dense layers and a final sigmoid activation function to produce a probability for sample classification \cite{srgan_2016}.
+
 \subsection{Detailed Methodology}
 Three paragraphs for explaining the pipeline and workflow of your study.
 A figure depicting the workflow of your work (shown in Fig~\ref{Fig:Figure1} or in Fig~\ref{Fig:Figure3b}).
