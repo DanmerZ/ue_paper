@@ -29,5 +29,6 @@
 
 
 *.pdf
+!img/*.pdf
 
 .DS_Store
